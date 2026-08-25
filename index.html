@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft VFX - Visual Effects Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">MINECRAFT VFX</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#effects" class="nav-link">Effects</a></li>
+                <li><a href="#showcase" class="nav-link">Showcase</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">MINECRAFT</span>
+                <span class="word">VISUAL</span>
+                <span class="word">EFFECTS</span>
+            </h1>
+            <p class="hero-subtitle">Immersive particle systems and stunning visual experiences</p>
+            <button class="cta-button">Explore Effects</button>
+        </div>
+        <div class="hero-background">
+            <div class="voxel-grid"></div>
+        </div>
+    </section>
+
+    <!-- Effects Grid -->
+    <section id="effects" class="effects-section">
+        <h2 class="section-title">Visual Effects</h2>
+        
+        <div class="effects-grid">
+            <div class="effect-card" data-effect="1">
+                <div class="effect-icon">✨</div>
+                <h3>Particle System</h3>
+                <p>Dynamic particle rendering with physics simulation</p>
+                <div class="effect-overlay"></div>
+            </div>
+
+            <div class="effect-card" data-effect="2">
+                <div class="effect-icon">⚡</div>
+                <h3>Lightning</h3>
+                <p>Procedural lightning and electrical discharge effects</p>
+                <div class="effect-overlay"></div>
+            </div>
+
+            <div class="effect-card" data-effect="3">
+                <div class="effect-icon">🔥</div>
+                <h3>Fire & Explosions</h3>
+                <p>Realistic fire simulation and explosion particles</p>
+                <div class="effect-overlay"></div>
+            </div>
+
+            <div class="effect-card" data-effect="4">
+                <div class="effect-icon">💧</div>
+                <h3>Water Effects</h3>
+                <p>Fluid simulation and water surface rendering</p>
+                <div class="effect-overlay"></div>
+            </div>
+
+            <div class="effect-card" data-effect="5">
+                <div class="effect-icon">🌌</div>
+                <h3>Portal Effects</h3>
+                <p>Dimensional rifts and teleportation visuals</p>
+                <div class="effect-overlay"></div>
+            </div>
+
+            <div class="effect-card" data-effect="6">
+                <div class="effect-icon">✴️</div>
+                <h3>Magic & Spells</h3>
+                <p>Enchantment glows and magical particle trails</p>
+                <div class="effect-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase-section">
+        <h2 class="section-title">Featured Showcase</h2>
+        
+        <div class="showcase-container">
+            <div class="showcase-item active" data-id="1">
+                <div class="showcase-image">
+                    <canvas id="canvas-showcase"></canvas>
+                </div>
+                <div class="showcase-info">
+                    <h3>Particle Cascade</h3>
+                    <p>A mesmerizing cascade of particles demonstrating advanced rendering techniques and physics-based motion. Perfect for magical spells and environmental effects.</p>
+                    <div class="tech-tags">
+                        <span class="tag">WebGL</span>
+                        <span class="tag">Physics</span>
+                        <span class="tag">Particles</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="showcase-nav">
+            <button class="showcase-btn prev">←</button>
+            <button class="showcase-btn next">→</button>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stat">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Particles/Frame</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">120</div>
+            <div class="stat-label">FPS Target</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number">60+</div>
+            <div class="stat-label">Effect Types</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p>Interested in implementing these VFX in your project?</p>
+            <form class="contact-form">
+                <input type="email" placeholder="Your email" required>
+                <textarea placeholder="Your message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Minecraft VFX. Crafted with passion.</p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+            <a href="#">Discord</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
