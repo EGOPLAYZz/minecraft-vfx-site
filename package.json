@@ -1,0 +1,28 @@
+{
+  "name": "minecraft-vfx-site",
+  "version": "1.0.0",
+  "description": "A modern, minimalistic Minecraft-themed VFX site with purple/blue/black theme and click effects",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000 -o"
+  },
+  "keywords": [
+    "minecraft",
+    "vfx",
+    "visual-effects",
+    "particles",
+    "canvas",
+    "webgl",
+    "minecraft-themed",
+    "block-breaking",
+    "hit-particles",
+    "interactive"
+  ],
+  "author": "EGOPLAYZz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EGOPLAYZz/minecraft-vfx-site.git"
+  }
+}
